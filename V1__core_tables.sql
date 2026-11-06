@@ -1,0 +1,7 @@
+
+-- V1: Create core tables
+
+CREATE TABLE IF NOT EXISTS students (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name TEXT NOT NULL
+);
